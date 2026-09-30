@@ -8,7 +8,7 @@ load_dotenv(override=True)
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 # Ton numéro de téléphone au format international (sans le +)
-TO_NUMBER = "212775708618" 
+TO_NUMBER = "" #you must delete your number 
 
 # URL officielle Meta affichée sur ton écran (v25.0)
 URL = f"https://graph.facebook.com/v25.0/{PHONE_NUMBER_ID}/messages"
